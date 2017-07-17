@@ -1,5 +1,5 @@
-astral (1.4-0ubuntu1~ubuntu16.04~ppa3) xenial; urgency=medium
+astral (1.4-1) UNRELEASED; urgency=medium
 
-  * Update copyright
+  * Initial Debian release
 
- -- Mycroft Devs <devops@mycroft.ai>  Wed, 24 May 2017 03:12:57 -0500
+ -- Mycroft Devs <devops@mycroft.ai>  Mon, 17 July 2017 10:00:57 -0500
