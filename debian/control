@@ -5,11 +5,9 @@ Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.
 Uploaders: Mycroft Devs <devops@mycroft.ai>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-all-dbg,
-               python-all-dev (>= 2.6.6-3i~),
+               python-all,
                python-setuptools,
-               python3-all-dbg,
-               python3-all-dev,
+               python3-all,
                python-tz,
                python3-tz, 
                python3-setuptools
@@ -17,7 +15,7 @@ Standards-Version: 4.0.0
 
 Package: python-astral
 Architecture: any
-Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, python-tz
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Provides: ${python:Provides}
 XB-Python-Version: ${python:Versions}
 Description: astral module for Python
@@ -25,7 +23,7 @@ Description: astral module for Python
 
 Package: python3-astral
 Architecture: any
-Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}, python3-tz
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
 Provides: ${python:Provides}
 Description: astral - Python 3.x
  This package contains the module for Python 3.x.
