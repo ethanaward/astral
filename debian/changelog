@@ -1,5 +1,5 @@
 astral (1.4-1) UNRELEASED; urgency=medium
 
-  * Initial Debian release
+  * Initial Debian release (closes: #869101)
 
- -- Mycroft Devs <devops@mycroft.ai>  Mon, 17 July 2017 10:00:57 -0500
+ -- Mycroft Devs <devops@mycroft.ai>  Mon, 17 Jul 2017 10:00:57 -0500

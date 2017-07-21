@@ -2,7 +2,7 @@ Source: astral
 Section: python
 Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Ethan Ward <ethan.ward@mycroft.ai>
+Uploaders: Mycroft Devs <devops@mycroft.ai>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all-dbg,
@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 9),
                python-tz,
                python3-tz, 
                python3-setuptools
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 
 Package: python-astral
 Architecture: any
